@@ -5,6 +5,5 @@ end
 def cats_meow
   kitty = Cat.new
   kitty.name="Kitty"
-  kitty.meow="meow!"
-  puts kitty.meow
+  puts kitty.meow="meow!"
 end
