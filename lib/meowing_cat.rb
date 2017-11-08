@@ -6,5 +6,5 @@ def meow
   kitty = Cat.new
   @sound=("meow!")
   @name=("Maru")
-  puts "Maru".sound
+  puts kitty.sound
 end
