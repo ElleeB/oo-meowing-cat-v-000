@@ -3,8 +3,8 @@ class Cat
 end
 
 def meow
-  kitty = Cat.new
+  maru = Cat.new
   @sound=("meow!")
   @name=("Maru")
-  puts kitty.sound
+  puts maru.sound
 end
