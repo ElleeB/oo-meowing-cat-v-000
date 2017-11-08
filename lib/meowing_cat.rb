@@ -1,11 +1,14 @@
 class Cat
   attr_accessor :name, :sound
+  @name = :name
+  @sound = :sound
+    def meow
+    puts @sound = "meow!"
+  end
 end
 
-def meow
-  maru = Cat.new
-  maru.name="Maru"
-  maru.sound="meow!"
-  puts maru.name
-  puts maru.sound
-end
+maru = Cat.new
+maru.name = "Maru"
+
+
+  
