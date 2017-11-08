@@ -4,7 +4,6 @@ end
 
 def meow
   maru = Cat.new
-  maru.name="Maru"
+  maru.name=("Maru")
   maru.sound="meow!"
-  maru.sound
 end
