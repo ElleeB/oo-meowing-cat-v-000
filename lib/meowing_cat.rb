@@ -1,9 +1,7 @@
 class Cat
   attr_accessor :name, :sound
-  @name = :name
-  @sound = :sound
     def meow
-    puts @sound = "meow!"
+    puts sound = "meow!"
   end
 end
 
