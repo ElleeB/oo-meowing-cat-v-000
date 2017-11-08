@@ -1,9 +1,9 @@
 class Cat
-  attr_accessor :meow, :name
+  attr_accessor :sound, :name
 end
 
 def cats_meow
   kitty = Cat.new
   kitty.name="Kitty"
-  Kitty.meow="meow!"
+  Kitty.sound="meow!"
 end
