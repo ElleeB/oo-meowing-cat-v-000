@@ -2,8 +2,9 @@ class Cat
   attr_accessor :sound, :name
 end
 
-def cats_meow
+def meow
   kitty = Cat.new
-  kitty.name="Kitty"
-  kitty.sound="meow!"
+  @sound=("meow!")
+  @name=("Maru")
+  puts "Maru".sound
 end
